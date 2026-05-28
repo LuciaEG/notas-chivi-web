@@ -18,7 +18,7 @@ El proyecto está inspirado en el emprendimiento real de encuadernación artesan
 
 El sitio puede visualizarse online mediante GitHub Pages, permitiendo recorrer todas las secciones y funcionalidades implementadas.
 
-🔗 GitHub Pages:
+🔗 GitHub Pages: https://luciaeg.github.io/notas-chivi-web/
 
 ---
 
