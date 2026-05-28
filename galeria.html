@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Galería de trabajos de encuadernación artesanal de Notas Chivi.">
+    <title>Galería | Notas Chivi</title>
+    <link rel="icon" type="image/webp" href="imagenes/favicom.webp">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="logo">
+                <img src="imagenes/logoprincipal.png" alt="Notas Chivi" class="logo__img">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav" id="mainNav">
+                <ul class="nav__list">
+                    <li class="nav__item nav__item--dropdown">
+                        <button class="nav__link nav__link--dropdown" aria-expanded="false" aria-haspopup="true">
+                            Inicio
+                            <svg class="dropdown__arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="2 4 6 8 10 4"></polyline>
+                            </svg>
+                        </button>
+                        <ul class="dropdown__menu">
+                            <li><a href="index.html#hecho-a-mano" class="dropdown__link">Hecho a mano</a></li>
+                            <li><a href="index.html#novedad" class="dropdown__link">Novedad</a></li>
+                            <li><a href="index.html#catalogo" class="dropdown__link">Catálogo de productos</a></li>
+                            <li><a href="index.html#tecnicas" class="dropdown__link">Nuestras técnicas de encuadernación</a></li>
+                            <li><a href="index.html#como-comprar" class="dropdown__link">¿Cómo comprar?</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a href="galeria.html" class="nav__link nav__link--active">Galería</a></li>
+                    <li class="nav__item"><a href="sobre-mi.html" class="nav__link">Sobre mí</a></li>
+                    <li class="nav__item"><a href="contacto.html" class="nav__link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section section--page-header">
+            <div class="container">
+                <h1 class="page__title">Galería de trabajos</h1>
+                <p class="page__subtitle">Cada pieza es única. Aquí podés ver algunos de nuestros diseños realizados.</p>
+            </div>
+        </section>
+
+        <section class="section section--gallery">
+            <div class="container">
+                <div class="gallery__grid">
+                    <a href="imagenes/interior-agenda.webp" class="gallery__item glightbox" data-gallery="notas-chivi" data-title="Interior de agenda">
+                        <img src="imagenes/interior-agenda.webp" alt="Interior de agenda" loading="lazy">
+                        <div class="gallery__overlay">
+                            <span class="gallery__icon">+</span>
+                        </div>
+                    </a>
+                    <a href="imagenes/album-fotos.webp" class="gallery__item glightbox" data-gallery="notas-chivi" data-title="Álbum de fotos">
+                        <img src="imagenes/album-fotos.webp" alt="Álbum de fotos" loading="lazy">
+                        <div class="gallery__overlay">
+                            <span class="gallery__icon">+</span>
+                        </div>
+                    </a>
+                    <a href="imagenes/interior-diario.webp" class="gallery__item glightbox" data-gallery="notas-chivi" data-title="Interior diario">
+                        <img src="imagenes/interior-diario.webp" alt="Interior diario" loading="lazy">
+                        <div class="gallery__overlay">
+                            <span class="gallery__icon">+</span>
+                        </div>
+                    </a>
+                    <a href="imagenes/interior-midori.webp" class="gallery__item glightbox" data-gallery="notas-chivi" data-title="Interior Midori">
+                        <img src="imagenes/interior-midori.webp" alt="Interior Midori" loading="lazy">
+                        <div class="gallery__overlay">
+                            <span class="gallery__icon">+</span>
+                        </div>
+                    </a>
+                    <a href="imagenes/agenda-estudiantil.webp" class="gallery__item glightbox" data-gallery="notas-chivi" data-title="Agenda estudiantil">
+                        <img src="imagenes/agenda-estudiantil.webp" alt="Agenda estudiantil" loading="lazy">
+                        <div class="gallery__overlay">
+                            <span class="gallery__icon">+</span>
+                        </div>
+                    </a>
+                    <a href="imagenes/interior-pedido.webp" class="gallery__item glightbox" data-gallery="notas-chivi" data-title="Interior pedido">
+                        <img src="imagenes/interior-pedido.webp" alt="Interior pedido" loading="lazy">
+                        <div class="gallery__overlay">
+                            <span class="gallery__icon">+</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <img src="imagenes/logoblanco.png" alt="Notas Chivi" class="footer__logo">
+                    <p class="footer__desc">Encuadernación artesanal con identidad. Hecho a mano en cada puntada.</p>
+                </div>
+                <div class="footer__sitemap">
+                    <h4 class="footer__title">Mapa de sitio</h4>
+                    <ul class="footer__list">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="galeria.html">Galería</a></li>
+                        <li><a href="sobre-mi.html">Sobre mí</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer__legal">
+                    <h4 class="footer__title">Información legal</h4>
+                    <ul class="footer__list">
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer__social">
+                    <h4 class="footer__title">Seguinos</h4>
+                    <div class="social__links">
+                        <a href="https://www.instagram.com/notas_chivi/" target="_blank" rel="noopener noreferrer" class="social__link" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="https://www.tiktok.com/@notas_chivi" target="_blank" rel="noopener noreferrer" class="social__link" aria-label="TikTok">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Notas Chivi. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const lightbox = GLightbox({
+                touchNavigation: true,
+                loop: true,
+                autoplayVideos: true
+            });
+        });
+    </script>
+</body>
+</html>

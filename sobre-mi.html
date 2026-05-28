@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conocé a Silvia, la creadora de Notas Chivi. Encuadernación artesanal hecha con dedicación y amor por los libros.">
+    <title>Sobre mí | Notas Chivi</title>
+    <link rel="icon" type="image/webp" href="imagenes/favicom.webp">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="logo">
+                <img src="imagenes/logoprincipal.png" alt="Notas Chivi" class="logo__img">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav" id="mainNav">
+                <ul class="nav__list">
+                    <li class="nav__item nav__item--dropdown">
+                        <button class="nav__link nav__link--dropdown" aria-expanded="false" aria-haspopup="true">
+                            Inicio
+                            <svg class="dropdown__arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="2 4 6 8 10 4"></polyline>
+                            </svg>
+                        </button>
+                        <ul class="dropdown__menu">
+                            <li><a href="index.html#hecho-a-mano" class="dropdown__link">Hecho a mano</a></li>
+                            <li><a href="index.html#novedad" class="dropdown__link">Novedad</a></li>
+                            <li><a href="index.html#catalogo" class="dropdown__link">Catálogo de productos</a></li>
+                            <li><a href="index.html#tecnicas" class="dropdown__link">Nuestras técnicas de encuadernación</a></li>
+                            <li><a href="index.html#como-comprar" class="dropdown__link">¿Cómo comprar?</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a href="galeria.html" class="nav__link">Galería</a></li>
+                    <li class="nav__item"><a href="sobre-mi.html" class="nav__link nav__link--active">Sobre mí</a></li>
+                    <li class="nav__item"><a href="contacto.html" class="nav__link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero principal: Silvia -->
+        <section class="section section--about-hero">
+            <div class="container">
+                <div class="about-hero__content">
+                    <div class="about-hero__image-wrapper scroll-reveal">
+                        <div class="about-hero__image-placeholder">
+                            <img src="imagenes/silvia.webp" alt="Foto de Silvia, creadora de Notas Chivi" class="about-hero__img" id="silviaFoto" onerror="this.style.display='none'; this.parentElement.classList.add('about-hero__image-placeholder--empty');">
+                            <div class="about-hero__placeholder-text">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                                <span>Foto de Silvia</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-hero__text scroll-reveal">
+                        <h1 class="about-hero__title">Hola, soy Silvia</h1>
+                        <p class="about-hero__subtitle">Detrás de Notas Chivi hay una historia hecha de libros, aprendizaje y mucho trabajo artesanal.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección: Mi historia -->
+        <section class="section section--historia section--alt" id="mi-historia">
+            <div class="container">
+                <div class="historia__content scroll-reveal">
+                    <h2 class="section__title section__title--centered">Mi historia</h2>
+                    <div class="historia__text">
+                        <p>Soy Silvia, creadora de <strong>Notas Chivi</strong>. Soy bibliotecaria y desde siempre estuve rodeada de libros, historias y el amor por la lectura. A lo largo de mi vida realicé distintos cursos y capacitaciones que me permitieron aprender nuevas técnicas y desarrollar habilidades vinculadas al trabajo artesanal.</p>
+                        <p>Con el tiempo descubrí una pasión especial: no solo crear cuadernos y productos únicos hechos a mano, sino también devolverles vida a aquellos libros que parecían olvidados. La restauración y reparación de libros se convirtió en una forma de combinar creatividad, paciencia y dedicación.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección: Qué hago -->
+        <section class="section section--servicios" id="que-hago">
+            <div class="container">
+                <h2 class="section__title section__title--centered scroll-reveal">Que hago</h2>
+                <p class="section__intro scroll-reveal">Cada pieza es trabajada a mano con técnicas tradicionales y materiales de calidad.</p>
+
+                <div class="servicios__grid">
+                    <article class="servicio__card scroll-reveal">
+                        <div class="servicio__icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path><path d="M12 6v7"></path><path d="M9 9h6"></path></svg>
+                        </div>
+                        <h3 class="servicio__title">Restauración y reparación de libros</h3>
+                        <p class="servicio__text">Devuelvo vida a libros deteriorados, reparando lomos, tapas y hojas con técnicas tradicionales de conservación.</p>
+                    </article>
+
+                    <article class="servicio__card scroll-reveal">
+                        <div class="servicio__icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"></circle><circle cx="6" cy="18" r="3"></circle><line x1="20" y1="4" x2="8.12" y2="15.88"></line><line x1="14.47" y1="14.48" x2="20" y2="20"></line><line x1="8.12" y1="8.12" x2="12" y2="12"></line></svg>
+                        </div>
+                        <h3 class="servicio__title">Encuadernación artesanal</h3>
+                        <p class="servicio__text">Cuadernos, agendas y diarios encuadernados a mano con costuras tradicionales: copta, francesa, japonesa, cartoné y más.</p>
+                    </article>
+
+                    <article class="servicio__card scroll-reveal">
+                        <div class="servicio__icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                        </div>
+                        <h3 class="servicio__title">Cuadernos y agendas personalizadas</h3>
+                        <p class="servicio__text">Diseños a medida con tapas personalizadas, tipo de papel, tamaño y terminaciones según tus necesidades.</p>
+                    </article>
+
+                    <article class="servicio__card scroll-reveal">
+                        <div class="servicio__icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>
+                        </div>
+                        <h3 class="servicio__title">Diseños únicos hechos a mano</h3>
+                        <p class="servicio__text">Cada pieza es única, pensada y elaborada artesanalmente con atención a cada detalle y acabado.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección: La esencia de Notas Chivi -->
+        <section class="section section--esencia section--alt" id="esencia">
+            <div class="container">
+                <div class="esencia__content scroll-reveal">
+                    <h2 class="section__title section__title--centered">La esencia de Notas Chivi</h2>
+                    <div class="esencia__text">
+                        <p>Cada creación está hecha con dedicación y detalle. Me gusta pensar que cada cuaderno, agenda o libro reparado tiene una historia propia. Mi objetivo es crear piezas únicas y dar una nueva oportunidad a aquellas que merecen seguir acompañando momentos importantes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Frase destacada -->
+        <section class="section section--frase">
+            <div class="container">
+                <blockquote class="frase-destacada scroll-reveal">
+                    <span class="frase-destacada__comilla">"</span>
+                    <p class="frase-destacada__texto">Los libros guardan historias; mi trabajo es ayudarlas a seguir viviendo.</p>
+                    <footer class="frase-destacada__autor">— Silvia, Notas Chivi</footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- Sección final: Agradecimiento -->
+        <section class="section section--agradecimiento section--alt">
+            <div class="container">
+                <div class="agradecimiento__content scroll-reveal">
+                    <h2 class="section__title section__title--centered">Gracias por acompañar este emprendimiento</h2>
+                    <div class="agradecimiento__text">
+                        <p><strong>Notas Chivi</strong> nació desde el amor por los libros y las cosas hechas con dedicación. Gracias por ser parte de este camino y valorar el trabajo artesanal.</p>
+                    </div>
+                    <a href="contacto.html" class="hero__cta agradecimiento__cta">Contactarme</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <img src="imagenes/logoblanco.png" alt="Notas Chivi" class="footer__logo">
+                    <p class="footer__desc">Encuadernación artesanal con identidad. Hecho a mano en cada puntada.</p>
+                </div>
+
+                <div class="footer__sitemap">
+                    <h4 class="footer__title">Mapa de sitio</h4>
+                    <ul class="footer__list">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="galeria.html">Galería</a></li>
+                        <li><a href="sobre-mi.html">Sobre mí</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__legal">
+                    <h4 class="footer__title">Información legal</h4>
+                    <ul class="footer__list">
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__social">
+                    <h4 class="footer__title">Seguinos</h4>
+                    <div class="social__links">
+                        <a href="https://www.instagram.com/notas_chivi/" target="_blank" rel="noopener noreferrer" class="social__link" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="https://www.tiktok.com/@notas_chivi" target="_blank" rel="noopener noreferrer" class="social__link" aria-label="TikTok">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; 2026 Notas Chivi. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
